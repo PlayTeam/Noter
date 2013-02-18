@@ -3,12 +3,16 @@
 
 #include "stdafx.h"
 #include "GammaManager.h"
+#include "LeftHandTrack.h"
 #include <iostream>
 #include <string>
 using namespace std;
 int _tmain(int argc, _TCHAR* argv[])
 {
 	string text;
+
+	LeftHandTrack::tratata();
+
 	cout <<"Input string: ";
 	getline(cin,text);
 

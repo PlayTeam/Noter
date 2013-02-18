@@ -83,6 +83,6 @@ int getNote (string &text)
 				break;
 			}
 		}
-		return i;
+		return i + 1;
 	}	
 }
