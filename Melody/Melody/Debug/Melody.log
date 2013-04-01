@@ -1,0 +1,35 @@
+﻿Build started 29.03.2013 20:22:27.
+     1>Project "D:\Play\Melody\Melody\Melody.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Melody.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt NoteGenerator.cpp main.cpp
+         NoteGenerator.cpp
+     1>d:\play\melody\melody\notegenerator.cpp(103): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\play\melody\melody\notegenerator.cpp(104): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+         Compiling...
+         main.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Play\Melody\Debug\Melody.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Melody.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Play\Melody\Debug\Melody.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Play\Melody\Debug\Melody.lib" /MACHINE:X86 Debug\Analyzer.obj
+         Debug\HarmonicMinorScale.obj
+         Debug\main.obj
+         Debug\Note.obj
+         Debug\NoteGenerator.obj
+         Debug\NoterContext.obj
+         Debug\PureMajorScale.obj
+         Debug\Scale.obj
+         Debug\ScaleDefiner.obj
+     1>Analyzer.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         Melody.vcxproj -> D:\Play\Melody\Debug\Melody.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Play\Melody\Debug\Melody.exe;#1" /manifest Debug\Melody.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Melody.unsuccessfulbuild".
+         Touching "Debug\Melody.lastbuildstate".
+     1>Done Building Project "D:\Play\Melody\Melody\Melody.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.51
